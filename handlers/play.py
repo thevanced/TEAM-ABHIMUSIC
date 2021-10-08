@@ -290,7 +290,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**uploaded by @Shubhanshutya 🎵 Jo Aap Madhur Dhun Me Khoye ho Vo Ye Hai Song:** {}\n**🕒 Afsos, Ye Ganna Itni Der tak HI Apka Sath DE Payega Duration:** {} min\n**👤 Mahan Insaan Jisne Dil ko Jagane Wali Iz Madhur Dhun Ko Chuna Hai.. Added By:** {}\n\n**▶️ Now Playing at {}...**".format(
+        caption="**uploaded by @greatpersonxd 🎵 Song:** {}\n**🕒 , Duration:** {} min\n**👤 Added By:** {}\n\n**▶️ Now Playing at {}...**".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
